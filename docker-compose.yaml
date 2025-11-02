@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      # This ensures N8N knows its own external address for webhooks
+      # This IP address corresponds to your mysoc-n8n-vm
+      - N8N_HOST=192.168.3.130 
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+    volumes:
+      # This mounts the local n8n_data directory to persist configuration and workflows
+      - ./n8n_data:/home/node/.n8n

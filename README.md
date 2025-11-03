@@ -132,6 +132,8 @@ This section details setting up the N8N automation platform on your VM using Doc
 
 ## 💻 Building the SOAR Workflow
 
+![n8n automation woorkflow](https://github.com/Gul31/Mysoc-automation/blob/main/screenshots/n8n%201.jpg?raw=true)
+
 The core automation pipeline is: **Webhook $\rightarrow$ OpenAI $\rightarrow$ Slack**.
 
 ### 4. Splunk Alert and N8N Webhook Setup

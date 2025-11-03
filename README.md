@@ -214,10 +214,9 @@ Alert Details:
     ```
     {{ $node["Message a Model"].json.choices[0].message.content }}
     ```
+    
 4.  **Connect:** Link the entire workflow sequentially: **Webhook $\rightarrow$ OpenAI $\rightarrow$ Slack**.
 
+![slack notification sample](https://github.com/Gul31/Mysoc-automation/blob/main/screenshots/slack%20alert%20.jpg?raw=true)
+
 ---
-
-This completes the formatting for the core workflow documentation!
-
-The only major configuration file missing from your repository content is the **`inputs.conf`** file. Would you like me to provide that now?

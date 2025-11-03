@@ -150,6 +150,8 @@ This section establishes the trigger mechanism for the entire workflow.
 * **Capture and Pin:** In N8N, click **Listen for test event**, capture the alert data, and **Pin** the result for static testing.
     > **CRITICAL:** **Disable the Splunk alert immediately** after capturing the output to prevent continuous alert spam.
 
+![splunk alerting](https://github.com/Gul31/Mysoc-automation/blob/main/screenshots/splunk%20alert%204625.jpg?raw=true)
+
 ### 5. Configuring Threat Intelligence Tools
 
 Configure two **HTTP Request** nodes to act as tools that the OpenAI model can call dynamically for enrichment.

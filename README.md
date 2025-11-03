@@ -7,7 +7,7 @@ This project demonstrates a functional **Security Orchestration, Automation, and
 
 ### Key Features
 * **Automated Alert Ingestion:** Splunk alert triggered by **Windows Event ID 4625** (Failed Logon).
-* **Enhanced Telemetry:** Ingests security logs, including **Sysmon** and **Windows Defender**.
+* **Enhanced Telemetry:** Ingests security logs, security, and audit logs.
 * **Dual Threat Intelligence:** Enrichment for **IP addresses (AbuseIPDB)** and **File Hashes (VirusTotal)**.
 * **LLM-Based Analysis:** ChatGPT summarizes, assesses severity, and recommends actions using the **System** and **User** roles.
 * **Structured Reporting:** Final output in Slack is formatted clearly for immediate analyst review.
